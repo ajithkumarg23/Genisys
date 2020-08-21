@@ -1,99 +1,285 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Genisys</title>
-	<link rel="shortcut icon" href="images/Icon.png" />
-	<!--<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">-->
-	
-	
-	<!-- Font -->
-	
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:400,500" rel="stylesheet">
-	
-	<!-- Stylesheets -->
-	
-	<link href="common-css/bootstrap.css" rel="stylesheet">
-	
-	
-	<link href="common-css/ionicons.css" rel="stylesheet">
-	
-	
-	<link rel="stylesheet" href="common-css/jquery.classycountdown.css" />
-		
-	<link href="01-comming-soon/css/styles.css" rel="stylesheet">
-	
-	<link href="01-comming-soon/css/responsive.css" rel="stylesheet">
-	
-</head>
-<body>
-	
-	<div class="main-area">
-		<div class="container full-height position-static">
-			
-			<section class="left-section full-height">
-				
-				<div class="display-table">
-					<div class="display-table-cell">
-						<div class="main-content">
-							<h1 class="title"><b>Under Construction</b></h1>
-							<p>Our website is currently Under Construction.
-								We Should be back shortly. Stay Tuned.</p>
+  <head>
+    <title>Genisys</title>
+    <link rel="shortcut icon" href="images/Icon.png" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-							<br>
-							<p><b>Follow us On : </b></p>
-							<a href="http://www.youtube.com/c/Genisyschannel">
-								<img border="0" src="https://image.flaticon.com/icons/svg/1409/1409936.svg" width="100" height="100">	
-								<p class="post-desc" style="margin-left:9.5em">Subscribe to our Channel</p>	
-						</div><!-- main-content -->
-					</div><!-- display-table-cell -->
-				</div><!-- display-table -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-				<ul class="footer-icons">
-					<li>Stay in touch : </li>
-					<li><a href="#"><i class="ion-social-facebook"></i></a></li>
-					<li><a href="#"><i class="ion-social-twitter"></i></a></li>
-					<li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-					<li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-					<li><a href="#"><i class="ion-social-pinterest"></i></a></li>
-				</ul>
-		
-			</section><!-- left-section -->
-		
-			<section class="right-section" style="background-image: url(images/countdown-1-1000x1000.jpg)">
-			
-				<div class="display-table center-text">
-					<div class="display-table-cell">
-						
-						
-						<div id="rounded-countdown">
-							<div class="countdown" data-remaining-sec="1728000"></div>
-						</div>
-						
-					</div><!-- display-table-cell -->
-				</div><!-- display-table -->
-				
-			</section><!-- right-section -->
-		
-		</div><!-- container -->
-	</div><!-- main-area -->
-	
-	<!-- SCIPTS -->
-	
-	<script src="common-js/jquery-3.1.1.min.js"></script>
-	
-	<script src="common-js/tether.min.js"></script>
-	
-	<script src="common-js/bootstrap.js"></script>
-	
-	<script src="common-js/jquery.classycountdown.js"></script>
-	
-	<script src="common-js/jquery.knob.js"></script>
-	
-	<script src="common-js/jquery.throttle.js"></script>
-	
-	<script src="common-js/scripts.js"></script>
-	
-</body>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+      
+      <div class="container-fluid">
+        <div class="d-flex align-items-center">
+          <div class="site-logo mr-auto w-25"><a href="index.html">Genisys</a></div>
+
+          <div class="mx-auto text-center">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#playlist-section" class="nav-link">Playlist</a></li>
+                <li><a href="#about-section" class="nav-link">About</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="ml-auto w-25">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
+                <li class="cta"><a href="#contact-section" class="nav-link"><span>Contact Us</span></a></li>
+              </ul>
+            </nav>
+            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
+          </div>
+        </div>
+      </div>
+      
+    </header>
+
+    <div class="intro-section" id="home-section">
+      
+      <div class="slide-1" style="background-image: url('images/1.jpg');" data-stellar-background-ratio="0.5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <div class="row align-items-center">
+                <div class="col-lg-6 mb-4">
+                  <h1  data-aos="fade-up" data-aos-delay="100">Genisys (The New Begining)</h1>
+                  <p class="mb-4"  data-aos="fade-up" data-aos-delay="200">We make entertaining videos about technology, showcases and other content. Windows Tech Tips is all about fun, creative ways to experience the latest technology. The latest tips and technology you never knew existed.</p>
+                  <p data-aos="fade-up" data-aos-delay="300"><a href="https://www.youtube.com/c/Genisyschannel" class="btn btn-primary py-3 px-5 btn-pill">Subscribe</a></p>
+
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="site-section courses-title" id="playlist-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="100">
+            <h2 class="section-title">Playlist</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="site-section courses-entry-wrap"  data-aos="fade-up" data-aos-delay="200">
+      <div class="container">
+        <div class="row">
+
+          <div class="owl-carousel col-12 nonloop-block-14">
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <div class="iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLZ8ZavRdxib5NOZ0PcH_NPedXudBu9QNH" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <div class="iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLZ8ZavRdxib6wpeJSiili2J44ztPbhXlC" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <div class="iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLZ8ZavRdxib6djG3fVRf4UelJCjwwiK1C" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+
+
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <div class="iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLZ8ZavRdxib55A7ItDXSFVmfFEqRTArid" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-7 text-center">
+            <button class="customPrevBtn btn btn-primary m-1">Prev</button>
+            <button class="customNextBtn btn btn-primary m-1">Next</button>
+          </div>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+          <p data-aos="fade-up" data-aos-delay="300"><a href="videos.html" class="btn btn-primary py-3 px-5 btn-pill">All Videos -></a></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-section" id="about-section">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-lg-7 mb-5 text-center"  data-aos="fade-up" data-aos-delay="100">
+            <h2 class="section-title">About</h2>
+          </div>
+        </div>
+        
+         <div class="site-section bg-image overlay" style="background-image: url('images/1.jpg');">
+           <div class="container">
+              <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="1000">
+                <div class="col-md-8 text-center testimony">
+                  <img src="images/person_4.jpg" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
+                  <h3 class="mb-4">G. Ajith Kumar</h3>
+                  <blockquote>
+                    <p>&ldquo; I am Student, Studying B.E CSE in Paavai Engineering College, Namakkal. &rdquo;</p>
+                  </blockquote>
+                </div>
+              </div>
+           </div>
+         </div>
+
+    
+    <div class="site-section bg-light" id="contact-section">
+      <div class="container">
+
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+
+
+            
+            <h2 class="section-title mb-3">Message Us</h2>
+            <form method="post" data-aos="fade">
+              <div class="form-group row">
+                <div class="col-md-6 mb-3 mb-lg-0">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Last name">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <input type="text" class="form-control" placeholder="Subject">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <input type="email" class="form-control" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <textarea class="form-control" id="" cols="30" rows="10" placeholder="Write your message here."></textarea>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-6">
+                  
+                  <input type="submit" class="btn btn-primary py-3 px-5 btn-block btn-pill" value="Send Message">
+                </div>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+     
+    <footer class="footer-section bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>About Genisys</h3>
+            <p>We make entertaining videos about technology, showcases and other content. Windows Tech Tips is all about fun, creative ways to experience the latest technology. The latest tips and technology you never knew existed.</p>
+          </div>
+
+          <div class="col-md-3 ml-auto">
+            <h3>Links</h3>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#home-section">Home</a></li>
+              <li><a href="#playlist-section">Playlist</a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#about-section">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h3>Subscribe</h3>
+            <p>Subscribe us on Youtube</p>
+            <p data-aos="fade-up" data-aos-delay="300"><a href="https://www.youtube.com/c/Genisyschannel" class="btn btn-primary py-3 px-5 btn-pill">Subscribe</a></p>
+          </div>
+
+        </div>
+
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+            <p>
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved.
+      </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+
+  
+    
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+
+  
+  <script src="js/main.js"></script>
+    
+  </body>
 </html>
