@@ -1,2 +1,2 @@
 # Genisys
-This is my first web page. I have created it fo my YouTube channel.
+This is my first web page. I have created it for my YouTube channel.
